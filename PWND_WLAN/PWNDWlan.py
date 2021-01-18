@@ -72,7 +72,7 @@ threads = int(input('[!] Enter number of Attacks: '))
 
 UseTor = False
 
-if Tor == 's':
+if Tor == 'y':
 	UseTor = True
 
 hostip = socket.gethostbyname(host)
